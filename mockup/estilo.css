@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+}
+.todo{
+    display: flex;
+    justify-content: space-between;
+    background-color: #9a2620ca;
+}
+ul{
+    list-style: none;
+    font-size: 20pt;
+    display: flex;
+    justify-content: end;
+}
+li{
+    display: inline-block;
+    padding: 2rem;
+}
+.img{
+    width: 70px;
+    height: 60px;
+    padding: 1rem;
+}
+section{
+    background-image: url(./img/ginny\ y\ georgia.jpg);
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.texto{
+    padding: 8rem;
+    display: block;
+    justify-content: space-between;
+}
+#titulo{
+    color: rgb(244, 113, 113);
+    text-align: center;
+    margin: 2%;
+    font-size: 30pt;
+}
+#p{
+    text-align: center;
+    color: beige;
+    font-size: 14pt;
+}
+.bot{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.boton{
+    width: 100px;
+    height: 40px;
+}
